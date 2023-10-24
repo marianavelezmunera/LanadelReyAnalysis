@@ -6,3 +6,6 @@ All info was analyzed using R. All code is going to be readily available, includ
 Theese are the main results, results per album are in the folders. 
 
 ![tabla](https://github.com/marianavelezmunera/LanadelReyAnalysis/blob/main/All/tabla_total.png)
+![plot_tot](https://github.com/marianavelezmunera/LanadelReyAnalysis/blob/main/All/plot_total2.png)
+![skips](https://github.com/marianavelezmunera/LanadelReyAnalysis/blob/main/All/skips_total.png)
+![identi](https://github.com/marianavelezmunera/LanadelReyAnalysis/blob/main/All/identificada_total.png)
