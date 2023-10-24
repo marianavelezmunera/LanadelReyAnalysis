@@ -5,4 +5,4 @@ Basicaly I listened to all Lana del Rey's songs and rated them based on: How muc
 All info was analyzed using R. All code is going to be readily available, including the data that can be used as a template to do your own ranking! 
 Theese are the main results, results per album are in the folders. 
 
-![tabla] (https://github.com/marianavelezmunera/LanadelReyAnalysis/blob/main/All/tabla_total.png)
+![tabla](https://github.com/marianavelezmunera/LanadelReyAnalysis/blob/main/All/tabla_total.png)
