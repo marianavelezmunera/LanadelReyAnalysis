@@ -53,7 +53,7 @@ bars<-ggplot(data=na.omit(lanadata),aes(x=Letra,fill=Letra))+
   theme(plot.title = element_text(family = "Bebas Neue",size = 20,hjust = 0.5))
 bars
 
-skips<-as.data.frame(table(lanadata$album,lanadata$Skip))
+skips<-as.data.frame(table(lanadata$Album,lanadata$Skip))
 colnames(skips)<-c("album","skips","frecuencia")
 
 skips

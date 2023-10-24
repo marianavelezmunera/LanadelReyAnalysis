@@ -1,9 +1,9 @@
 # Tabla 
 
-medias<-aggregate(lanadata$Puntaje,list(lanadata$Álbum),FUN=mean)
-colnames(medias)<-c("Álbum","Puntaje promedio")
+medias<-aggregate(lanadata$Puntaje,list(lanadata$Album),FUN=mean)
+colnames(medias)<-c("Album","Puntaje promedio")
 
-mediana<-aggregate(lanadata$Puntaje,list(lanadata$Álbum),FUN=median)
+mediana<-aggregate(lanadata$Puntaje,list(lanadata$Album),FUN=median)
 
 info_completa<-cbind(medias,mediana$x)
 colnames(info_completa)<-c("Album","Media","Mediana")
@@ -18,6 +18,8 @@ url_albums<-c(
 info_completa$url<-url_albums
 info_completa<-info_completa %>% #reordering columns
   relocate(url,.before = Album)
+
+info_completa$url[8]
 
 tabla<-info_completa[,c(1,3,4)] %>%
   gt() %>% #table
